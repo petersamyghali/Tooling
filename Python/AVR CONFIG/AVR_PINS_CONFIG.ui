@@ -1,0 +1,4572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1081</width>
+    <height>912</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1081</width>
+    <height>819</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>760</y>
+     <width>731</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Generate_Button">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>770</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Generate</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1021</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="PORTA">
+    <attribute name="title">
+     <string>PORTA</string>
+    </attribute>
+    <widget class="QGroupBox" name="Input_Group_A1">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>220</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_A1">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_A1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_A3">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>130</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_A3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_A3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_A3">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>30</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 3 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_A3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_A3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_A0">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_A0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_A0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_A4">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>540</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_A4">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_A4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_A1">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>30</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 1 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_A1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_A1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_A5">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>370</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 5 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_A5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_A5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_A7">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>560</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_A7">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_A7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_A3">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>220</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_A3">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_A3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_A6">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>560</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_A6">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_A6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_A5">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>470</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_A5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_A5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_A0">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 0 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_A0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_A0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_A2">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>30</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 2 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_A2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_A2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_A6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>370</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 6 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_A6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_A6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_A2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>220</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_A2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_A2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_A2">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>130</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_A2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_A2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_A4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>450</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_A4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_A4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_A5">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>560</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_A5">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_A5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_A1">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>130</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_A1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_A1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_A7">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>370</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 7 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_A7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_A7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_A6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>470</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_A6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_A6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_A0">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_A0">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_A0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_A4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>350</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 4 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_A4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_A4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_A7">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>470</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_A7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_A7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="PORTB">
+    <attribute name="title">
+     <string>PORTB</string>
+    </attribute>
+    <widget class="QGroupBox" name="Output_Group_B4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>440</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_B4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_B4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_B2">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>120</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_B2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_B2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_B3">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>120</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_B3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_B3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_B2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>210</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_B2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_B2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_B5">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>460</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_B5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_B5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_B3">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>20</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 3 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_B3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_B3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_B7">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>550</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_B7">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_B7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_B4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>340</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 4 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_B4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_B4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_B6">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>550</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_B6">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_B6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_B6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>360</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 6 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_B6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_B6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_B1">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 1 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_B1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_B1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_B5">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>360</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 5 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_B5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_B5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_B5">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>550</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_B5">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_B5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_B7">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>460</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_B7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_B7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_B2">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>20</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 2 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_B2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_B2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_B3">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>210</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_B3">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_B3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_B0">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_B0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_B0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_B7">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>360</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 7 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_B7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_B7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_B0">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 0 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_B0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_B0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_B0">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_B0">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_B0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_B6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>460</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_B6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_B6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_B1">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>210</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_B1">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_B1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_B1">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>120</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_B1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_B1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_B4">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>530</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_B4">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_B4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="PORTC">
+    <attribute name="title">
+     <string>PORTC</string>
+    </attribute>
+    <widget class="QGroupBox" name="Pin_0_Group_C1">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>30</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 1 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_C1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_C1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_C3">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>30</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 3 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_C3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_C3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_C5">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>370</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 5 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_C5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_C5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_C1">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>130</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_C1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_C1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_C2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>220</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_C2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_C2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_C3">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>130</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_C3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_C3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_C4">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>540</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_C4">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_C4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="PREV_Button">
+     <property name="geometry">
+      <rect>
+       <x>1040</x>
+       <y>375</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Prev. PORT</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_C1">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>220</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_C1">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_C1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_C7">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>560</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_C7">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_C7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_C5">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>470</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_C5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_C5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_C0">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>130</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_C0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_C0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_C6">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>470</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_C6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_C6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_C5">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>560</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_C5">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_C5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_C3">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>220</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_C3">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_C3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_C4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>350</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 4 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_C4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_C4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_C7">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>370</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 7 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_C7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_C7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_C4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>450</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_C4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_C4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_C7">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>470</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_C7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_C7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_C6">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>560</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_C6">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_C6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_C0">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 0 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_C0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_C0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_C6">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>370</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 6 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_C6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_C6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Pin_0_Group_C2">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>30</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Pin 2 Direction</string>
+     </property>
+     <widget class="QRadioButton" name="Output_Radio_C2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Output</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Input_Radio_C2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Output_Group_C2">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>130</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Output Configration</string>
+     </property>
+     <widget class="QRadioButton" name="High_Radio_C2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hight</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Low_Radio_C2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Low</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="Input_Group_C0">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>220</y>
+       <width>121</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Configration</string>
+     </property>
+     <widget class="QRadioButton" name="Pull_Up_Radio_C0">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pull_Up</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="High_Imp_Radio_C0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>95</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>High Imp</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="PORTD">
+    <attribute name="title">
+     <string>PORTD</string>
+    </attribute>
+    <widget class="QWidget" name="PORTS" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>960</width>
+       <height>722</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>960</width>
+       <height>722</height>
+      </size>
+     </property>
+     <widget class="QGroupBox" name="Pin_0_Group_D5">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>360</y>
+        <width>121</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pin 5 Direction</string>
+      </property>
+      <widget class="QRadioButton" name="Output_Radio_D5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Output</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Input_Radio_D5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Input</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Output_Group_D4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>440</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Output Configration</string>
+      </property>
+      <widget class="QRadioButton" name="High_Radio_D4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hight</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Low_Radio_D4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Low</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Input_Group_D1">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>210</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Input Configration</string>
+      </property>
+      <widget class="QRadioButton" name="Pull_Up_Radio_D1">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pull_Up</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="High_Imp_Radio_D1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>High Imp</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Output_Group_D5">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>460</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Output Configration</string>
+      </property>
+      <widget class="QRadioButton" name="High_Radio_D5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hight</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Low_Radio_D5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Low</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Input_Group_D3">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>210</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Input Configration</string>
+      </property>
+      <widget class="QRadioButton" name="Pull_Up_Radio_D3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pull_Up</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="High_Imp_Radio_D3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>High Imp</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Pin_0_Group_D4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>340</y>
+        <width>121</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pin 4 Direction</string>
+      </property>
+      <widget class="QRadioButton" name="Output_Radio_D4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Output</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Input_Radio_D4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Input</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Input_Group_D5">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>550</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Input Configration</string>
+      </property>
+      <widget class="QRadioButton" name="Pull_Up_Radio_DD5">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pull_Up</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="High_Imp_Radio_D5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>High Imp</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Pin_0_Group_D7">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>360</y>
+        <width>121</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pin 7 Direction</string>
+      </property>
+      <widget class="QRadioButton" name="Output_Radio_D7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Output</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Input_Radio_D7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Input</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Output_Group_D7">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>460</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Output Configration</string>
+      </property>
+      <widget class="QRadioButton" name="High_Radio_D7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hight</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Low_Radio_D7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Low</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Pin_0_Group_D6">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>360</y>
+        <width>121</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pin 6 Direction</string>
+      </property>
+      <widget class="QRadioButton" name="Output_Radio_D6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Output</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Input_Radio_D6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Input</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Pin_0_Group_D3">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>20</y>
+        <width>121</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pin 3 Direction</string>
+      </property>
+      <widget class="QRadioButton" name="Output_Radio_D3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Output</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Input_Radio_D3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Input</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Input_Group_D2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>210</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Input Configration</string>
+      </property>
+      <widget class="QRadioButton" name="Pull_Up_Radio_D2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pull_Up</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="High_Imp_Radio_D2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>High Imp</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Pin_0_Group_D1">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>121</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pin 1 Direction</string>
+      </property>
+      <widget class="QRadioButton" name="Output_Radio_D1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Output</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Input_Radio_D1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Input</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Pin_0_Group_D2">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>20</y>
+        <width>121</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pin 2 Direction</string>
+      </property>
+      <widget class="QRadioButton" name="Output_Radio_D2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Output</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Input_Radio_D2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Input</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Output_Group_D2">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>120</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Output Configration</string>
+      </property>
+      <widget class="QRadioButton" name="High_Radio_D2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hight</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Low_Radio_D2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Low</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Output_Group_D3">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>120</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Output Configration</string>
+      </property>
+      <widget class="QRadioButton" name="High_Radio_D3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hight</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Low_Radio_D3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Low</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Input_Group_D7">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>550</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Input Configration</string>
+      </property>
+      <widget class="QRadioButton" name="Pull_Up_Radio_D7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pull_Up</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="High_Imp_Radio_D7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>High Imp</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Input_Group_D6">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>550</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Input Configration</string>
+      </property>
+      <widget class="QRadioButton" name="Pull_Up_Radio_D6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pull_Up</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="High_Imp_Radio_D6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>High Imp</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Output_Group_D0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Output Configration</string>
+      </property>
+      <widget class="QRadioButton" name="High_Radio_D0">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hight</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Low_Radio_D0">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Low</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Input_Group_D4">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>530</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Input Configration</string>
+      </property>
+      <widget class="QRadioButton" name="Pull_Up_Radio_D4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pull_Up</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="High_Imp_Radio_D4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>High Imp</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Output_Group_D1">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>120</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Output Configration</string>
+      </property>
+      <widget class="QRadioButton" name="High_Radio_D1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hight</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Low_Radio_D1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Low</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Input_Group_D0">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>210</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Input Configration</string>
+      </property>
+      <widget class="QRadioButton" name="Pull_Up_Radio_D0">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pull_Up</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="High_Imp_Radio_D0">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>High Imp</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Output_Group_D6">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>460</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Output Configration</string>
+      </property>
+      <widget class="QRadioButton" name="High_Radio_D6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hight</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Low_Radio_D6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Low</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="Pin_0_Group_D0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>121</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pin 0 Direction</string>
+      </property>
+      <widget class="QRadioButton" name="Output_Radio_D0">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Output</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="Input_Radio_D0">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Input</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Save_Button">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>820</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Load_Button">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>880</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>820</y>
+     <width>731</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>870</y>
+     <width>731</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
